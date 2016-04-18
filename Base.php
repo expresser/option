@@ -1,4 +1,4 @@
-<?php namespace Expresser\Setting;
+<?php namespace Expresser\Option;
 
 use Exception;
 
