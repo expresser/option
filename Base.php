@@ -8,7 +8,7 @@ abstract class Base extends \Expresser\Support\Fluent {
 
   public static function registerHooks($class) {
 
-    static::registerSettings();
+    add_action('admin_menu', [$class, 'registerSettings'], -PHP_INT_MAX);
   }
 
   public static function registerSettings() {
