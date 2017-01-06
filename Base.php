@@ -3,8 +3,9 @@
 namespace Expresser\Option;
 
 use Exception;
+use Expresser\Support\Fluent;
 
-abstract class Base extends \Expresser\Support\Fluent
+abstract class Base extends Fluent
 {
     public $ID = 'option';
 
